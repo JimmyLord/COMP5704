@@ -23,7 +23,7 @@
 </table>
 
 <hr noshade="noshade">
-<h2><font color="#005128">Project Title: </font><font><font color="#005128">Dynamic Data Structures on GPU</font></font></h2>
+<h2><font color="#005128">Project Title: </font><font><font color="#005128">Dynamic Graphs on the GPU</font></font></h2>
 
 <h2><font><font color="#005128">Name: Jimmy Lord</font></font></h2>
 
@@ -32,10 +32,7 @@
 <hr noshade="noshade">
 <b><font color="#005128">Project Outline:</font></b>
 <p>
-My project this semester will involve both learning the CUDA language for GPUs and the implementation and verification of the results of existing techniques developed for the parallelisation of some form of dynamic data structure. Alternativly, I may do similar work on a shortest path search algorithm on the GPU.
-</p>
-<p>
-Listed below are 5 papers from recent years I have found that propose techniques for a variety of dynamic data structures or graph search algorithms on the GPU.
+My project this semester will involve both learning the CUDA language for GPUs and the implementation and verification of the results of existing techniques developed for the parallelisation of dynamic graphs using a hash table on the GPU.
 </p>
 
 <p><b><font color="#005128">Startup Paper(s):</font></b></p>
@@ -43,18 +40,6 @@ Listed below are 5 papers from recent years I have found that propose techniques
 <ul>
   <li>
     <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/9139818"><font color="#000000">Dynamic Graphs on the GPU</font></a></div>
-  </li>
-  <li>
-    <div align="left"><a href="https://dl-acm-org.proxy.library.carleton.ca/doi/10.1145/3392717.3392745"><font color="#000000">Parallelizing pruned landmark labeling: dealing with dependencies in graph algorithms</font></a></div>
-  </li>
-  <li>
-    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8425196"><font color="#000000">A Dynamic Hash Table for the GPU</font></a></div>
-  </li>
-  <li>
-    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8425197"><font color="#000000">GPU LSM: A Dynamic Dictionary Data Structure for the GPU</font></a></div>
-  </li>
-  <li>
-    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8425261"><font color="#000000">An Energy-Efficient Single-Source Shortest Path Algorithm</font></a></div>
   </li>
 </ul>
 
@@ -65,23 +50,55 @@ Listed below are 5 papers from recent years I have found that propose techniques
     <div align="left"><a href="Literature_Review.pdf"><font color="#000000">Literature Review</font></a> (PDF file created from LATEX template)</div>
   </li>
   <li>
-    <div align="left"><a href="Presentation_Outline.pdf"><font color="#000000">Presentation Outline</font></a> (PDF file created from LATEX template)</div>
+    <div align="left"><a href="Presentation_Outline.pdf"><font color="#000000">Presentation Outline</font></a> (PDF file created in google slides)</div>
   </li>
   <li>
-    <div align="left"> <a href="Slide_Presentation.ppt"><font color="#000000">Slide Presentation</font></a> (PowerPoint File) incl. Question Sheet </div>
+    <div align="left"> <a href="Slide_Presentation.pdf"><font color="#000000">Slide Presentation</font></a> (PDF File created in google docs) incl. Question Sheet </div>
   </li>
   <li>
     <div align="left"><a href="Final_Paper.pdf"><font color="#000000">Final Paper</font></a> (PDF file created from LATEX template)</div>
   </li>
   <li>
-    <a href="Code_and_Data"><font color="#000000">Code and Data</font></a> (put all code, data, etc. into this directory)
+    <a href="Code_and_Data.zip"><font color="#000000">Code and Data</font></a> (zip file containing source code and all reasonably sized relevant data)
   </li>
 </ul>
 
 <p><b><font color="#005128">Relevant References:</font></b></p>
 
 <ul>
-  <li>list all relevant papers and include links to their PDF files</li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8425196"><font color="#000000">A Dynamic Hash Table for the GPU</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="http://www.academia.edu/download/30656563/pnnlgeorgiatechsandiastinger-u.pdf"><font color="#000000">STINGER: Spatio-Temporal Interaction Networks and Graphs (STING) Extensible Representation (Direct Link)</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8091034"><font color="#000000">Static graph challenge on GPU</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167819109001240"><font color="#000000">Solving path problems on the GPU</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8547541"><font color="#000000">Hornet: An Efficient Data Structure for Dynamic Sparse Graphs and Matrices on GPUs</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/abstract/document/6408680"><font color="#000000">STINGER: High performance data structure for streaming graphs</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/abstract/document/7761622"><font color="#000000">cuSTINGER: Supporting dynamic graph algorithms for GPUs</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="http://networkrepository.com/misc.php"><font color="#000000">networkrepository.com/misc.php</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://dl-acm-org.proxy.library.carleton.ca/doi/abs/10.14778/3151113.3151122"><font color="#000000">Accelerating dynamic graph analytics on GPUs</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8665802"><font color="#000000">faimGraph: High Performance Management of Fully-Dynamic Graphs Under Tight Memory Constraints on the GPU</font></a></div>
+  </li>
+  <li>
+    <div align="left"><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/document/8091058"><font color="#000000">Autonomous, independent management of dynamic graphs on GPUs</font></a></div>
+  </li>
 </ul>
 
 </body></html>
